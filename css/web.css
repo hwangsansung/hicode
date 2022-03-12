@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  /*top, let. rint. bottom 움직이려면 당연히*/
+  top: 50vh;
+  /*화면높이*/
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  /*화면 이동 변형*/
+}
+
+.wrap a {
+  font-size: 3em;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  /*변화하면서*/
+}
+
+.wrap .naver {
+  background-color: green;
+  color: white;
+}
+
+.wrap .naver:hover {
+  background-color: white;
+  color: #057514;
+  border: 3px solid green;
+}
+
+.wrap .google {
+  background-color: #38139e;
+  color: white;
+}
+
+.wrap .google:hover {
+  background-color: white;
+  color: #b6866a;
+  border: 3px solid #cfd84c;
+}
+
+.wrap .daum {
+  background-color: #f85615;
+  color: white;
+}
+
+.wrap .daum:hover {
+  background-color: white;
+  color: #b0c4b3;
+  border: 3px solid #3436af;
+}
+/*# sourceMappingURL=web.css.map */

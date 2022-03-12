@@ -1,0 +1,49 @@
+.wrap{
+
+    display: flex;
+    justify-content: center;
+    position: relative; /*top, let. rint. bottom 움직이려면 당연히*/
+    top: 50vh; /*화면높이*/
+    transform: translateY(-50%); /*화면 이동 변형*/
+
+    a{
+        font-size: 3em; 
+        text-decoration: none;
+        padding: 0.5em 1em  ;
+        border-radius: 0.5em;
+        transition: 0.5s; /*변화하면서*/
+    }
+    .naver{
+        background-color: green;
+        color: white;
+        
+    }
+    .naver:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(5, 117, 20);
+        border: 3px solid green;
+        
+    }
+    .google{
+        background-color: rgb(56, 19, 158);
+        color: white;
+        
+    }
+    .google:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(182, 134, 106);
+        border: 3px solid rgb(207, 216, 76);
+        
+    }
+    .daum{
+        background-color: rgb(248, 86, 21);
+        color: rgb(255, 255, 255);
+        
+    }
+    .daum:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(176, 196, 179);
+        border: 3px solid rgb(52, 54, 175);
+        
+    }
+}
